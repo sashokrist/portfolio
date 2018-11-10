@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test JS</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="2ab0baf4972978e714e3f1d1-" defer=""></script>
+</head>
+<body>
+    <header>
+        <h1 id="red">Welcome to</h1>
+        <h1 id="blue">Micro Howdy!</h1>
+    </header>
+<div id="quizContainer" class="container">
+    <div>
+        <h3>Programming languages?</h3>
+    </div><br>
+    <div id="question"></div>
+    <label><input type="radio" name="option" value="1" /> 
+        <span id="opt1"></span>
+    </label><br>
+    <label><input type="radio" name="option" value="2" />
+         <span id="opt2"></span>
+        </label><br><br>
+    <button id="nextButton"  onclick="loadNextQuestion();">Next Question</button>
+</div>
+<div id="result" class="container result" style="display:none;">
+</div>
+<div class="image">
+        <img id="img"  style="display:none;">
+</div>
+
+   
+<script src="question.js" type="2ab0baf4972978e714e3f1d1-text/javascript"></script>
+<script src="main.js" type="2ab0baf4972978e714e3f1d1-text/javascript"></script>
+</body>
+</html>
